@@ -1,0 +1,66 @@
+.img-card-fit {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+.img-cont {
+    height: 200px;
+    overflow: hidden;
+    background-color: beige;
+}
+
+.card-content{
+    height: 150px;
+    overflow: auto;
+}
+
+main {
+    min-height: calc(100vh - 100px);
+  }
+
+.checked{
+    color: orange;
+}
+
+.offcanvas-top{
+    height: fit-content;
+}
+
+.movie-detail-container {
+    display: none;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.movie-detail-container.active {
+    display: block;
+}
+
+#movieGenres span {
+    margin-right: 10px;
+    font-style: italic;
+}
+
+.more-info-btn {
+    margin-top: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.extra-info {
+    margin-top: 10px;
+    background-color: #222;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.extra-info p {
+    margin: 5px 0;
+    color: #ccc;
+}
